@@ -450,16 +450,9 @@
                 <circle cx="12.25" cy="14.5" r="1.25" fill="currentColor"/>
               </svg>
             </div>
-            {{ if .LogoData }}
-            <div class="brand-mark">
-              {{.LogoData}}
-            </div>
-            {{ end }}
             <h1 id="sign-in-title">Secure sign in</h1>
             {{ if .SignInMessage }}
             <p class="intro">{{.SignInMessage}}</p>
-            {{ else }}
-            <p class="intro">Use your configured identity provider to continue with protected access.</p>
             {{ end }}
           </div>
 
